@@ -1,0 +1,29 @@
+.drops {
+    min-height: 876px;
+    background-color: $bgGray-color;
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-end;
+        h2 {
+            font-size: 74px;
+            text-transform: uppercase;
+        }
+    }
+    &__tabs {
+        display: grid;
+        grid-template-columns: 275px 275px 275px 275px;
+        gap: 16px;
+        margin-top: 32px;
+    }
+    &__tab {
+        img {
+            width: 100%;
+        }
+        &_subtitle {
+            margin: 16px 0;
+            font-size: 20px;
+        }
+    }
+
+}

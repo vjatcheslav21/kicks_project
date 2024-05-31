@@ -5,8 +5,10 @@
 @import 'base/variables';
 @import 'base/mixins';
 
+@import 'blocks/buttons';
 @import 'blocks/promo';
 @import 'blocks/header';
+@import 'blocks/drops';
 
 
 body {
@@ -25,18 +27,4 @@ body {
     margin: 0 auto;
 }
 
-button {
-    width: 138px;
-    height: 38px;
-    background-color: $blue-color;
-    border: none;
-    border-radius: 5px;
-    color: #fff;
-    transition: all .5;
-    text-transform: uppercase;
-}
-button:hover {
-    width: 140px;
-    height: 40px;
-    border: none
-}
+

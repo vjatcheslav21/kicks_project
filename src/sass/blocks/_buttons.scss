@@ -1,0 +1,27 @@
+button {
+    width: 138px;
+    height: 48px;
+    background-color: $blue-color;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    transition: all .5;
+    text-transform: uppercase;
+
+}
+.button__drops {
+    width: 189px;
+    &_tab {
+        width: 100%;
+        background-color: $darkGray-color;
+        font-size: 14px;
+        span {
+            color: $yellow-color;
+        }
+    }
+}
+
+button:hover {
+    height: 60px;
+    border: none;
+}
