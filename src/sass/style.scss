@@ -1,0 +1,42 @@
+@import 'libs/bootstrap-reboot.min';
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Mono+One&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+@import 'base/variables';
+@import 'base/mixins';
+
+@import 'blocks/promo';
+@import 'blocks/header';
+
+
+body {
+    margin: 0;
+}
+* {
+    // font-family: 'Rubik Mono One', sans-serif;
+    font-family: 'Rubik', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+button {
+    display: block;
+    margin: 0 auto;
+    width: 138px;
+    height: 38px;
+    background-color: $blue-color;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    transition: all .5;
+}
+button:hover {
+    width: 140px;
+    height: 40px;
+    border: none
+}
