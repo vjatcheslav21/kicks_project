@@ -15,6 +15,7 @@ body {
 * {
     // font-family: 'Rubik Mono One', sans-serif;
     font-family: 'Rubik', sans-serif;
+    line-height: normal;
     margin: 0;
     padding: 0;
 }
@@ -25,8 +26,6 @@ body {
 }
 
 button {
-    display: block;
-    margin: 0 auto;
     width: 138px;
     height: 38px;
     background-color: $blue-color;
@@ -34,6 +33,7 @@ button {
     border-radius: 5px;
     color: #fff;
     transition: all .5;
+    text-transform: uppercase;
 }
 button:hover {
     width: 140px;
