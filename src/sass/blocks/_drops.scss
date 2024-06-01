@@ -1,5 +1,5 @@
 .drops {
-    min-height: 876px;
+    min-height: 800px;
     background-color: $bgGray-color;
     &__wrapper {
         display: flex;
@@ -20,7 +20,7 @@
         img {
             width: 100%;
         }
-        &_subtitle {
+        &_suptitle {
             margin: 16px 0;
             font-size: 20px;
         }

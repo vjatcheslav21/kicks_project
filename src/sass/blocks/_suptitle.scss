@@ -1,0 +1,9 @@
+.suptitle {
+    font-size: 74px;
+    color: $white-color;
+    text-transform: uppercase;
+    &__dark {
+        color: $darkGray-color;
+        margin-top: 0;
+    }
+}
