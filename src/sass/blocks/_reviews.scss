@@ -1,0 +1,44 @@
+.reviews {
+    height: 875px;
+    background-color: $bgGray-color;
+    padding: 128px 0;
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-end;
+    }
+    &__tabs {
+        display: flex;
+        justify-content: space-between;
+    }
+    &__tab {
+        width: 360px;
+        height: 500px;
+        margin-top: 48px;
+        &_header {
+            display: flex;
+            justify-content: space-between;
+            background-color: $white-color;
+            padding: 32px;
+            border-radius: 32px 32px 0 0;
+            &_suptitle {
+                font-size: 24px;
+                font-weight: bold;
+            }
+            &_descr {
+                font-size: 16px;
+                margin: 8px 0;
+            }
+            img {
+                width: 64px;
+                height: 64px;
+            }
+        }
+        &_body {
+            img {
+                width: 100%;
+                border-radius: 0 0 32px 32px;
+            }
+        }
+    }
+}

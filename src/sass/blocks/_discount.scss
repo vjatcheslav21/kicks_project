@@ -1,0 +1,42 @@
+.discount {
+    background-color: $bgGray-color;
+    &__wrapper {
+        display: flex;
+        justify-content: space-around;
+        align-items: flex-start;
+        height: 545px;
+        width: 100%;
+        background-color: $blue-color;
+        padding: 64px 0 0 0;
+        border-radius: 48px 48px 0 0;
+        img {
+            width: 270px;
+            margin-top: 144px;
+        }
+        
+
+    }
+    &__block {
+        &_suptitle {
+            font-size: 48px;
+            color: #fff;
+        }
+        &_descr {
+            font-size: 20px;
+            color: $bgGray-color;
+        }
+        
+        input {
+            width: 342px;
+            height: 48px;
+            border: 1px solid #fff;
+            border-radius: 8px;
+            color: #fff;
+            background-color: $blue-color;
+            padding: 15px;
+        }
+        input::placeholder{
+            color: #fff;
+        }
+    }
+}

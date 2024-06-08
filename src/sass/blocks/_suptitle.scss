@@ -2,8 +2,10 @@
     font-size: 74px;
     color: $white-color;
     text-transform: uppercase;
+    margin-bottom: 0;
     &__dark {
         color: $darkGray-color;
         margin-top: 0;
     }
+
 }

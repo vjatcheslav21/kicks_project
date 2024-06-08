@@ -7,7 +7,6 @@ button {
     color: #fff;
     transition: all .5;
     text-transform: uppercase;
-
 }
 .button__drops {
     width: 189px;
@@ -21,7 +20,13 @@ button {
     }
 }
 
+
+.button__discount {
+    background-color: #232321;
+    width: 102px;
+}
+
 button:hover {
-    height: 60px;
+    transform: scale(1.05);
     border: none;
 }
