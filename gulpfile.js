@@ -75,15 +75,10 @@ gulp.task('images', function (){
         .pipe(browserSync.stream()); 
 })
 
-gulp.task('default', function () {
-    return gulp.src('src/script.js')
-      .pipe(
-        webpack({
-            mode: 'production',
-            devtool: 'source-map'
-        })
-      )
-      .pipe(gulp.dest("dist/js"));
+gulp.task('js', function() {
+    return gulp.src('src/entry.js')
+      .pipe(webpack())
+      .pipe(gulp.dest('dist/'));
   });
 
 gulp.task('default', gulp.parallel('watch', 'server', 'styles', 'scripts', 'fonts', 'icons', 'mailer', 'html', 'images'));

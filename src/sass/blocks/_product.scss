@@ -1,0 +1,52 @@
+.product {
+    padding: 32px 0 138px 0;
+    background-color: $bgGray-color;
+    &__wrapper {
+        margin-top: 31px;
+        display: grid;
+        grid-template-columns: 700px 400px;
+        justify-content: space-between;
+    }
+    &__img {
+        width: 700px;
+        display: grid;
+        grid-template-columns: 350px 350px;
+        grid-template-rows: 400px 400px;
+        gap: 16px;
+        img {
+            width: 350px;
+            height: 400px;
+        }
+    }
+    &__info {
+        &_icon {
+            width: 106px;
+            height: 38px;
+        }
+        &_suptitle {
+            font-size: 32px;
+            margin: 16px 0;
+        }
+        &_price {
+            font-size: 24px;
+            color: $blue-color;
+            font-weight: bold;
+        }            
+        h4 {
+            font-size: 16px;
+            text-transform: uppercase;
+        }
+        &_size {
+            margin-top: 16px;
+        }
+        &_btn {
+            margin-top: 20px;
+        }
+        &_descr {
+            margin-top: 24px;
+            p {
+                color: $darkGray-color;
+            }
+        }
+    }
+}

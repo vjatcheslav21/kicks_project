@@ -40,4 +40,14 @@ $(document).ready(function(){
         prevArrow: $('.prev-button'),
         nextArrow: $('.next-button'),
       });
+
+
+      $('.drops__tabs_slider').slick({
+        infinite: true,
+        slidesToShow: 4,
+        slidesToScroll: 1,
+        prevArrow: $('.prev-button'),
+        nextArrow: $('.next-button'),
+      });
+
 });

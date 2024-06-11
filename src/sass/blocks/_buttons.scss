@@ -25,6 +25,72 @@ button {
     background-color: #232321;
     width: 102px;
 }
+.button__color {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    margin-right: 14px;
+}
+.khaki {
+    background-color: #707e6e;
+}
+.dark {
+    background-color: #232321;
+}
+
+.button__size {
+    width: 48px;
+    background-color: #fff;
+    color: $darkGray-color;
+    margin-bottom: 5px;
+} 
+
+.button__size:hover {
+    background-color: $darkGray-color;
+    color: #fff;
+}
+
+.button__size:focus {
+    background-color: $darkGray-color;
+    color: #fff;
+}
+
+.button__add {
+    width: 300px;
+    background-color: $darkGray-color;
+}
+.button__like {
+    width: 48px;
+    background-color: $darkGray-color;
+    margin-left: 5px;
+}
+.button__buy {
+    width: 360px;
+    margin-top: 10px;
+    
+}
+
+.prev-button,
+.next-button {
+    width: 40px;
+    height: 40px;
+    background-color: #e7e7e3;
+    border: none;
+    border-radius: 8px;
+    font-size: 20px;
+    color: $darkGray-color;
+}
+
+.prev-button_product,
+.next-button_product {
+    background-color: $darkGray-color;
+    color: #fff;
+}
+.prev-button_product:hover,
+.next-button_product:hover {
+    opacity: 50%;
+}
+
 
 button:hover {
     transform: scale(1.05);

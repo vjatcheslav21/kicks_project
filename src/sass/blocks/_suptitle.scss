@@ -6,6 +6,10 @@
     &__dark {
         color: $darkGray-color;
         margin-top: 0;
+        &_product {
+            font-size: 48px;
+            text-transform: none;
+            color: $darkGray-color;
+        }
     }
-
 }
