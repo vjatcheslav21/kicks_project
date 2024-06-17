@@ -50,4 +50,7 @@ $(document).ready(function(){
         nextArrow: $('.next-button'),
       });
 
+
+
+
 });

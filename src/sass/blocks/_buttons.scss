@@ -7,7 +7,11 @@ button {
     color: #fff;
     transition: all .5;
     text-transform: uppercase;
+    &:hover {
+        transform: scale(1.05);
+    }
 }
+
 .button__drops {
     width: 189px;
     &_tab {
@@ -67,7 +71,57 @@ button {
 .button__buy {
     width: 360px;
     margin-top: 10px;
-    
+}
+.button__catalog {
+    width: 100%;
+    background-color: $darkGray-color;
+    font-size: 14px;
+    color: #fff;
+    &:hover {
+        transform: scale(1.01);
+
+    }
+}
+.button__catalog_refine {
+    width: 72px;
+    height: 38px;
+    font-size: 12px;
+    text-transform: none;
+    border-radius: 12px;
+}
+.button__catalog_color {
+    width: 48px;
+    margin-bottom: 5px;
+}
+.blue {
+    background-color: $blue-color;
+}
+.yellow {
+    background-color: $yellow-color;
+}
+.dark {
+    background-color: black;
+}
+.green {
+    background-color: green;
+}
+.dark_grey {
+    background-color: $darkGray-color;
+}
+.orange {
+    background-color: yellow;
+}
+.light_grey {
+    background-color: lightgray;
+}
+.grey {
+    background-color: grey;
+}
+.braun {
+    background-color: brown;
+}
+.red {
+    background-color: red;
 }
 
 .prev-button,
@@ -91,8 +145,3 @@ button {
     opacity: 50%;
 }
 
-
-button:hover {
-    transform: scale(1.05);
-    border: none;
-}
