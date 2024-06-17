@@ -1,14 +1,18 @@
 .dropdown {
     .topmenu {
         display: flex;
+        justify-content: space-around;
         li {
             list-style-type: none;
-            background-color: #fff;
+            background-color: $white-color;
             a {
                 text-decoration: none;
                 color: $darkGray-color;
                 padding: 15px 30px;
                 display: inline-block;
+            }
+            .header__link {
+                padding: 10px;
             }
             .submenu {
                 min-width: 160px;
@@ -50,4 +54,5 @@
         width: 160px;
         height: 54px;
     }
+    
 }

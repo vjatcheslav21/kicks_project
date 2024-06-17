@@ -49,8 +49,4 @@ $(document).ready(function(){
         prevArrow: $('.prev-button'),
         nextArrow: $('.next-button'),
       });
-
-
-
-
 });
